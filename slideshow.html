@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lan="en">
+	<head>
+		<title>Slideshow with JS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	</head>
+	<body>
+		<div id="slideContainerOuter">
+			<div id="slideContainerInner">
+				
+				<img id="mainImg" src="images/gallery.png">
+				
+			</div>
+			<p id="captionText">Caption</p>
+			<div id="slideNumbers">
+				<img tabindex="10" id="leftArrow" src="images/left.gif"/>
+				<ul>
+					<li tabindex="20" value="0" id="img0">1</li>
+					<li tabindex="30" value="1" id="img1">2</li>
+					<li tabindex="40" value="2" id="img2">3</li>
+					<li tabindex="50" value="3" id="img3">4</li>
+				</ul>
+				<img tabindex="60" id="rightArrow" src="images/right.gif"/>
+			</div>
+		</div>
+		<script src="js/slideshow.js"></script>
+	</body>
+</html>

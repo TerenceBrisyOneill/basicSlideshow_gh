@@ -1,0 +1,4 @@
+I have created slideshow_1 from a fixed set of lis within a ul
+Slideshow_2 is created using lis that are created with js and the number of lis 
+are based on the number of images in the image array.
+I have also created the slideshow to be used for mobile view.
